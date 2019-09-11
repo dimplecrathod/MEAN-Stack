@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{message}}
+  </h1>
+
+  <div app-test (childEvent)="message=$event" [parentData]="name">
+  
+
+  </div>
+  <div app-employee-list></div>
+  <div app-employee-detail></div>
+
+</div>
+
+<router-outlet></router-outlet>
